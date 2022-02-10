@@ -1,0 +1,199 @@
+@media (max-width:1440px){	
+header{padding:15px 80px 10px}
+nav li a{padding:20px}
+nav ul{float:right}
+}
+
+
+@media (max-width:1100px){	
+header{padding:15px 40px 10px}
+nav li a{padding:20px 15px}
+nav li:before{background-size:10px 10px; height:10px; margin-top:-5px; right:-5px;width:10px}
+nav li{font-size:16px}
+.loveria-banner{padding:80px 40px}
+.banner-text h1{font-size:110px; line-height:110px; margin-bottom:30px}
+.banner-counts{right:60px}
+.story-detail{padding-right:80px}
+.pink-title{font-size:110px}
+.rotated-text{height:250px}
+}
+
+
+@media (max-width:980px){
+.block .container,.container{padding:0 15px}
+header{padding:15px 20px 10px}
+nav > ul{background:rgba(255, 255, 255, 0.96); height:100%; overflow:auto; padding:30px; position:fixed; right:-270px; top:0; width:270px;
+-webkit-transition:all 500ms cubic-bezier(0.600, 0.040, 0.980, 0.335);
+-moz-transition:all 500ms cubic-bezier(0.600, 0.040, 0.980, 0.335);
+-o-transition:all 500ms cubic-bezier(0.600, 0.040, 0.980, 0.335);
+transition:all 500ms cubic-bezier(0.600, 0.040, 0.980, 0.335); /* easeInCirc */
+
+-webkit-transition-timing-function:cubic-bezier(0.600, 0.040, 0.980, 0.335);
+-moz-transition-timing-function:cubic-bezier(0.600, 0.040, 0.980, 0.335);
+-o-transition-timing-function:cubic-bezier(0.600, 0.040, 0.980, 0.335);
+transition-timing-function:cubic-bezier(0.600, 0.040, 0.980, 0.335); /* easeInCirc */
+}
+nav > ul.slideIn{right:0;
+-webkit-box-shadow:0 0 33px rgba(26, 27, 28, 0.5);
+-moz-box-shadow:0 0 33px rgba(26, 27, 28, 0.5);
+-ms-box-shadow:0 0 33px rgba(26, 27, 28, 0.5);
+-o-box-shadow:0 0 33px rgba(26, 27, 28, 0.5);
+box-shadow:0 0 33px rgba(26, 27, 28, 0.5);
+}
+nav ul li{border-bottom:1px solid #e3e3e3; float:left; padding-left:10px; width:100%}
+nav li a i.fa{font-size:12px;left:0;right:auto}
+nav ul ul{background:rgba(0, 0, 0, 0) none repeat scroll 0 0; box-shadow:none; display:none; opacity:1; position:relative; visibility:visible; }
+nav ul ul li{padding:0 20px}
+nav ul ul li{padding:0}
+nav ul ul li a{padding-left:30px}
+nav ul ul li:before{left:0}
+.open-menu{background:black; color:#fff; display:block; float:right; font-size:24px; height:50px; line-height:50px; width:50px}
+.banner-text h1{font-size:75px; line-height:75px; margin-bottom:20px}
+.banner-text span{background-size:100% 100%; font-size:25px}
+.coming-soon{float:left; left:0; margin-top:30px; position:relative; top:0; width:100%; z-index:2;
+    -webkit-transform:translate(0);
+    -moz-transform:translate(0);
+    -ms-transform:translate(0);
+    -o-transform:translate(0);
+    transform:translate(0);
+}
+.loveria-comming{padding:55px 40px;width:100%;margin:0;}
+.person-detail{display:unset; float:left; padding:60px 0 0!important; width:100%}
+.person-img{display:unset; float:left; padding-bottom:50px}
+.story{float:left; margin:0 0 30px; width:100%}
+.story-slide{margin:0 0 -30px;padding:0}
+.dg-wrapper{height:auto; width:100%}
+.dg-wrapper > div{width:100%}
+.event-info,
+.event-slide.dg-center .event-info{background:#303030 none repeat scroll 0 0; float:left; padding:30px; position:relative; top:0; width:100%;
+    -webkit-transform:translate(0);
+    -moz-transform:translate(0);
+    -ms-transform:translate(0);
+    -o-transform:translate(0);
+    transform:translate(0);
+}
+.loveria-events{margin-bottom:-100px}
+.event-slide > img{
+	padding-top:100px;
+    -webkit-transform:scale(1);
+    -moz-transform:scale(1);
+    -ms-transform:scale(1);
+    -o-transform:scale(1);
+    transform:scale(1);
+}
+.event-slide.dg-center > img{padding:0}
+.rsvp-form{padding:160px 160px 190px}
+.person-image{margin:0 0 40px; width:100%}
+.front-img{width:100%}
+.front-img > img{width:100%}
+.rotated-text{height:310px;width:420px}
+.back-img{max-height:100%; max-width:100%}
+.loveria-gallery > div{float:left; width:50%}
+.custom-grid1, .custom-grid2{width:100%}
+.loveria-blog{padding:0}
+.post-detail > p{padding:0}
+.sidebar{float:left; margin-top:70px; width:100%}
+.instagram-grids .row > div{float:left; width:11.112%}
+.post-detail h2{padding:0}
+.tags-and-share .tags{width:100%}
+.share-post{margin-top:30px; width:100%}
+.share-post a{float:left}
+.event-front{left:50%; max-width:100%;
+    -webkit-transform:translateX(-50%) translateY(-50%);
+    -moz-transform:translateX(-50%) translateY(-50%);
+    -ms-transform:translateX(-50%) translateY(-50%);
+    -o-transform:translateX(-50%) translateY(-50%);
+    transform:translateX(-50%) translateY(-50%);
+}
+.big-event-img > img{width:100%}
+.event-front > img{max-width:100%}
+
+.invitation-wrapper{
+    float:left;
+    overflow:auto;
+    width:100%;
+}
+
+}
+
+
+@media (max-width:767px){
+.loveria-memories{padding:0;background:none}	
+.banner-text{float:left; left:0; padding:50px 0; position:relative; top:0; width:100%;
+-webkit-transform:translate(0);
+-moz-transform:translate(0);
+-ms-transform:translate(0);
+-o-transform:translate(0);
+transform:translate(0);
+}
+.banner-counts a.active{color:#FFF}
+.banner-slide:before{display:none}
+.loveria-banner{padding:80px 20px;}
+.banner-text h1{font-size:45px}
+.banner-text span{font-size:15px;letter-spacing:0;padding:0 30px}
+.pink-title{font-size:70px}
+.person-detail h3{font-size:90px}
+.person-img{max-width:100%}
+.person-img img{width:100%}
+.shadow-title{font-size:70px; line-height:80px}
+.pagetop-text h1{font-size:35px}
+.person-image{padding:0}
+.back-img{display:none}
+.rotated-text{float:left; height:auto; left:0; margin:0 0 40px; position:relative; top:0; width:100%;
+-webkit-transform:rotate(0deg);
+-moz-transform:rotate(0deg);
+-ms-transform:rotate(0deg);
+-o-transform:rotate(0deg);
+transform:rotate(0deg);
+}
+.about-page > p{overflow:visible}
+.person-sign{padding:0}
+.rotated-text{font-size:72px; margin:0 0 10px}
+.option-set{text-align:center}
+.option-set li{display:inline-block; float:none}
+.loveria-comments ul{padding:0;}
+.big-event .rotated-text{margin:0}
+}
+
+@media (max-width:480px){
+.banner-counts{background:#c3c3c3 none repeat scroll 0 0; float:left; left:0; padding:20px; position:relative; top:0; width:100%;
+-webkit-transform:translate(0);
+-moz-transform:translate(0);
+-ms-transform:translate(0);
+-o-transform:translate(0);
+transform:translate(0);
+}
+.banner-counts a{float:left; text-align:center; width:25%}
+.loveria-comming:after{display:none}
+.loveria-comming{padding:35px 20px}
+.coming-soon > h1{font-size:35px}
+.date{font-size:18px; padding:0 10px}
+.coming-soon i{font-size:14px; padding:0 10px}
+.ClassyCountdown-wrapper .ClassyCountdown-value span{display:none}
+.ClassyCountdown-wrapper > div{margin:0 3px}
+.creative-title{margin:0;width:100%}
+.story-carousel{padding:0}
+.story-detail{padding:0}
+.story-img > span{left:0}
+.story-detail > h3{padding:0}
+.event-info > p{padding:0}
+.event-info > h3{font-size:30px}
+.event-info, .event-slide.dg-center .event-info{padding:30px 15px}
+.loc{font-size:50px}
+.gallery-thumbs{margin:0}
+.gallery-thumbs > a{float:left; margin:0; width:50%}
+.loveria-memories .owl-nav > div{margin-left:10px !important; margin-right:10px !important}
+.rsvp-form{background:rgba(0, 0, 0, 0) none repeat scroll 0 0; margin:0; padding:0 15px; width:100%}
+.rsvp-form .curved{font-size:30px}
+.wed > strong{font-size:20px}
+.wed{margin:0}
+.blue-title{font-size:40px;line-height:40px}
+footer{padding:15px}
+footer p{margin-bottom:10px; text-align:center; width:100%}
+.simple-socials{text-align:center; width:100%}
+.loveria-gallery > div{width:100%}
+.post-detail h2{font-size:25px}
+.instagram-grids .row > div{width:33.334%}
+.loveria-comment-form{padding:0 15px;}
+}
+

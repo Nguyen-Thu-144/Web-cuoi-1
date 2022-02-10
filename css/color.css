@@ -1,0 +1,41 @@
+a:hover,
+.banner-counts a.active,
+.story-img > span,
+.loveria-story .banner-counts a.active,
+.event-nav span:hover,
+.pink-title,
+.wed > strong,
+.bottom-line > strong,
+footer p a,
+.rotated-text,
+.person-sign span,
+.tags > a:hover,
+.reply,
+nav li a i.fa{
+	color:#e04f5f;
+}
+
+.banner-counts a:before,
+.go-down,
+.socials > a,
+.wed > strong:before, 
+.wed > strong:after,
+.pink-btn,
+.cat,	
+.loveria-comment-form form button,
+.option-set li a:before,
+.pagination > li.active,
+.tags-and-share .tags > a:hover,
+.open-menu{
+	background-color:#e04f5f;
+}
+
+
+{
+	border-color:#e04f5f;
+}
+
+
+@media (max-width:767px){
+.banner-text{background-color:#e04f5f}
+}
